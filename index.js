@@ -46,3 +46,16 @@ const calcularPuntaje = (facil, normal, dificil) => {
 console.log(calcularPuntaje(3, 0, 0))
 console.log(calcularPuntaje(0, 2, 1))
 console.log(calcularPuntaje(5, 1, 2))
+
+// O
+
+const calcularPuntajeDos = (facil, normal, dificil) => {
+    const totalFaciles = facil * 3
+    const totalNormales = normal * 5
+    const totalDificiles = dificil * 10
+    return totalFaciles + totalNormales + totalDificiles
+}
+
+console.log(calcularPuntajeDos(3, 0, 0))
+console.log(calcularPuntajeDos(0, 2, 1))
+console.log(calcularPuntajeDos(5, 1, 2))
